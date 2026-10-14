@@ -1,0 +1,9 @@
+{
+  "name": "oncologymassage-au",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An accessible single-page introduction to oncology massage, connected to Sacred Layers.",
+  "scripts": {
+    "dev": "node scripts/preview.mjs"
+  }
+}
