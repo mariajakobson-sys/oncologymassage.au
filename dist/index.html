@@ -44,7 +44,10 @@
           </div>
         </div>
         <figure class="hero-art">
-          <img src="assets/dandelion-breeze.svg" width="760" height="820" alt="" fetchpriority="high">
+          <picture>
+            <source media="(max-width: 760px)" srcset="assets/dandelion-breeze-mobile.svg" width="760" height="600">
+            <img src="assets/dandelion-breeze.svg" width="760" height="820" alt="" fetchpriority="high">
+          </picture>
         </figure>
       </section>
 
@@ -144,9 +147,12 @@
         <div class="contact-copy">
           <div class="section-intro">
           <h2 id="contact-heading">Contact<br><em>Maria</em></h2>
-          <p>If you have a question or would like to enquire about a session, please send me a text.</p>
+          <p>If you have a question or would like to enquire about a session, please send me a text or an email.</p>
           </div>
-          <a class="button button-dark" href="sms:+61434058468">Text Maria</a>
+          <div class="contact-actions">
+            <a class="button button-dark" href="sms:+61434058468">Text Maria</a>
+            <a class="button button-light" href="mailto:info@oncologymassage.au">Send an email</a>
+          </div>
         </div>
         <figure class="contact-art">
           <img src="assets/dandelion-connection.svg" width="540" height="540" alt="" loading="lazy" decoding="async">
